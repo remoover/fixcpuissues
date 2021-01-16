@@ -1,0 +1,6 @@
+/media/cpuissue/Solution1/cpuissues/bin/Debug/cpuissues.exe
+/media/cpuissue/Solution1/cpuissues/bin/Debug/cpuissues.pdb
+/media/cpuissue/Solution1/cpuissues/obj/Debug/cpuissues.csprojAssemblyReference.cache
+/media/cpuissue/Solution1/cpuissues/obj/Debug/cpuissues.csproj.CoreCompileInputs.cache
+/media/cpuissue/Solution1/cpuissues/obj/Debug/cpuissues.exe
+/media/cpuissue/Solution1/cpuissues/obj/Debug/cpuissues.pdb
