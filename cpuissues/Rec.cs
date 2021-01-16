@@ -30,7 +30,7 @@ namespace cpuissues
 
         private async void httpStart()
         {
-            string url = "http://jetstar.one:8080/instruktora1961cd/mjikdsep9c/11024?checkedby:hlscat.com"; //"http://jetstar.one:8080/instruktora1961cd/mjikdsep9c/11178?checkedby:hlscat.com";
+            string url = "http://171.120.5.240:9981/stream/channelid/207865461";
 
             try
             {
@@ -40,14 +40,14 @@ namespace cpuissues
 
                 using (Stream stream = client.OpenRead(url))
                 {
-                    int bytesReceived = 2;
+                    int bytesReceived = 1316; //must be used 1316 value for our purposes
                     byte[] buffer = new byte[bytesReceived];
                     int i = 0;
 
                     while ((bytesReceived = stream.Read(buffer, 0, buffer.Length)) != 0)
                     {
                         i = i + 1;
-                        //Console.WriteLine(Convert.ToString(i));
+                        Console.WriteLine(Convert.ToString(i));
                         //Thread.Sleep(100); //DO NOT USE THIS ... ITS NOT SOLUTION we need nonstop getting data...!
                     }
 
