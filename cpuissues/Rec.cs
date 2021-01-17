@@ -30,7 +30,9 @@ namespace cpuissues
 
         private async void httpStart()
         {
-            string url = "http://171.120.5.240:9981/stream/channelid/207865461";
+            //this is URL stream from internet... you can use ANY another iptv stream if you found .....
+            string url = "http://tviptv.iptv-channel.ru:8000/live/NndqUU6Xoe/mV6O7VmqLx/138.ts"; //"http://tviptv.iptv-channel.ru:8000/live/NndqUU6Xoe/mV6O7VmqLx/1.ts"; 
+            
 
             try
             {
